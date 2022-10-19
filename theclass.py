@@ -1,5 +1,6 @@
 class DFAmachine:
     def __init__(self,route):
+        route+=".txt"
         with open(route,'r') as f:
             dictornary={}
             lines =f.readlines()
